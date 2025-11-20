@@ -345,7 +345,7 @@ def cluster(database, width, height, output_prefix, treefile, treeid, out_dir):
 
         start = 1
 
-        lowest_bic = np.infty
+        lowest_bic = np.inf
         bic = []
         n_components_range = range(1, 40)
         
@@ -1828,7 +1828,7 @@ def cluster(database, width, height, output_prefix, treefile, treeid, out_dir):
 ##    #     #
 ##    #     #         start = 1
 ##    #     #
-##    #     #         lowest_bic = np.infty
+##    #     #         lowest_bic = np.inf
 ##    #     #         bic = []
 ##    #     #         n_components_range = range(1,int(0.75 * len(X)))
 ##    #     #
