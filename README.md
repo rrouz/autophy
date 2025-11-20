@@ -7,14 +7,22 @@ The primary home page for
 
 ## Requirements and Installation
 
-AutoPhy runs under Python 3 ( > 3.7, <=3.9)
+AutoPhy runs under Python 3 (>= 3.8, <=3.11). For Apple Silicon (M1/M2/M3) Macs, Python 3.9+ is recommended.
 
 You can install AutoPhy by running the following commands. 
 
 First, create the conda enviroment:
 
+**For Intel Macs or Linux:**
 ```bash
 conda create -n autophy python==3.8
+```
+
+**For Apple Silicon (M1/M2/M3) Macs:**
+```bash
+conda create -n autophy python==3.9
+# or
+conda create -n autophy python==3.10
 ```
 
 Activate conda enviroment:
